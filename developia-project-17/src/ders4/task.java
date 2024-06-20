@@ -34,6 +34,28 @@ public class task {
         char cr = (char)dn;
         System.out.println("8-ci "+cr);
 
+
+        int ss = 81;
+        ss>>=3;
+        System.out.println(ss);
+
+        int a = 10;
+        int b = 15;
+        int e = 30;
+        int x = 40;
+
+        System.out.println("a + b "+ (a+b));
+        System.out.println("a - b "+ (a-b));
+        System.out.println("a * b "+ (a*b));
+        System.out.println("e / a "+ (e/a));
+        System.out.println("a - b "+ (a-b));
+        System.out.println("b % a "+ (b%a));
+        System.out.println("x - b "+ (x%b));
+        System.out.println("++a "+ (++a));
+        System.out.println("b++ "+ (b++));
+        System.out.println("x-- "+ (x--));
+
+
     }
 
 
