@@ -76,6 +76,13 @@ public class task5 {
          for(double tm= 0;tm<=5;tm+=0.1){
              System.out.println(tm);
          }
+        for(int m = 1; m<20;m++){
+
+            if(m%m==0 && m%1==0 && m%2!=0){
+                System.out.println(m);
+            }
+
+        }
 
 
          }
