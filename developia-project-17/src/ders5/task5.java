@@ -83,6 +83,22 @@ public class task5 {
             }
 
         }
+        System.out.println("----------------------------");
+        for(int s = 2;s<=20;s++){
+            boolean sade = true;
+            for(int jm=2;jm<s;jm++){
+                if(s%jm==0){
+                    sade = false;
+
+                }
+
+            }
+            if(sade) {
+                System.out.println(s);
+            }
+        }
+
+
 
 
          }

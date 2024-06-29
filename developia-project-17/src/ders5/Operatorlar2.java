@@ -20,5 +20,6 @@ public class Operatorlar2 {
         String messages = age>= 18 && daydayVar?"telefon olar":"telefon olmaz";
         System.out.println(messages);
 
+
     }
 }

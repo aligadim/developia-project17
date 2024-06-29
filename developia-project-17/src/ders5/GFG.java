@@ -1,31 +1,50 @@
 package ders5;
+public class GFG {
+    public static void main(String[] args) {
+        int a = 10;
+        int fib1 = 0;
+        int fib2 = 1;
+        int sum = 0;
+        for (int i = 0; i < a; i++) {
+            sum = fib1 + fib2;
+            System.out.println(sum);
+            fib1 = fib2;
+            fib2 = sum;
 
 
-// Java Program to demonstrate
-// Brute Force Method
-// to check if a number is prime
-class GFG {
-    static boolean isPrime(int n) {
-        // Corner case
-        if (n <= 1)
-            return false;
+        }
 
-        // Check from 2 to n-1
-        for (int i = 2; i < n; i++)
-            if (n % i == 0)
-                return false;
+        int b = 20;
+        int fiba1 = 0;
+        int fiba2 = 1;
+        int cem = 0;
+        System.out.println("==================");
+        for (int j = 0; j < b; j++) {
+            cem = fiba1 + fiba2;
+            System.out.println(cem);
+            fiba1 = fiba2;
+            fiba2 = cem;
+        }
 
-        return true;
-    }
+        System.out.println("==================");
+        for (int c = 0; c < 100; c++) {
+            if (c % 5 == 0) {
+                System.out.println(c);
+            }
 
-    public static void main(String args[]) {
-        if (isPrime(11))
-            System.out.println(" true");
-        else
-            System.out.println(" false");
-        if (isPrime(15))
-            System.out.println(" true");
-        else
-            System.out.println(" false");
+        }
+        System.out.println("==================");
+        int netice = 0;
+        for (int s = 0; s < 100; s++) {
+            netice += s;
+            System.out.println("netice: "+netice+" s: "+s);
+        }
+        int ne=0;
+        for(int f = 400;f>20;f--){
+            ne-=f;
+            System.out.println("ne - "+ne+" f "+f);
+
+        }
+
     }
 }
